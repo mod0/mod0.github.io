@@ -1,0 +1,42 @@
+---
+layout: post
+title:  "Ctypes"
+date:   2014-10-10 18:33:57
+categories: python
+---
+[Ctypes][7] is a wonderful way to get your python program to harness the functionality of existing shared libraries. I am using it to write mathematical solvers in C and write wrappers around them in Python. You can download (boilerplate) [code][10] that I wrote while getting ctypes to work as I would like. 
+
+Articles I referred to when I was putting things together are referenced below.
+
+1. [stackoverflow: How do I convert a Python list into C array using ctypes?][1]
+2. [redstack: x86 Calling conventions][2]
+3. [Nynaeve: Win32 Calling conventions][3]
+4. [TLDP: Program Library HOWTO - Shared Libraries][4]
+5. [stackoverflow: python ctypes failed when importing a dll file][5]
+6. [stackoverflow: How to return array from C++ function to Python using ctypes][6]
+7. [Python Doc: ctypes - A foreign function library for Python][7]
+8. [SageMath: Ctypes][8]
+9. [SciPy: Cookbook/Ctypes][9]  
+    
+<br/>
+Comments on the links above:
+
+1. I attempted to load the dll using cdll.LoadLibrary(). And when it did not work,  after looking at /usr/lib/python2.7/ctypes/util.py 
+which uses a pretty neat trick to locate the library (original snippet included with zipfile) I tried setting LD_LIBRARY_PATH from python before trying to load my library but to no avail. I was beginning to lose patience and give up in getting the whole thing working until I tried [CDLL][5]()
+2. The last [answer][6] (by Hui Zheng) was very useful in clearing my doubts of how to return an array from C and get it garbage collected in python.    
+    
+    
+<br/>
+I wish I had more time to do further research and write a detailed (error free, not sure that there exists any in this one) article on ctypes. I'll probably get around and do it if I use it regularly and become adept at it.
+
+
+[1]: http://goo.gl/EEoub "Convert Python List"
+[2]: http://goo.gl/OEDC1 "x86 Calling conventions"
+[3]: http://goo.gl/hyCSp "Win32 Calling conventions"
+[4]: http://goo.gl/E6qPw "TLDP: Program Library HOWTO"
+[5]: http://goo.gl/cj3mi "Importing DLL files using Ctypes"
+[6]: http://goo.gl/DNtSX "Returning array from C/C++ to Python"
+[7]: http://goo.gl/fPMgG "Ctypes documentation."
+[8]: http://goo.gl/iqlxv "SageMath: Ctypes"
+[9]: http://goo.gl/rAX56 "SciPy: Cookbook/Ctypes"
+[10]: http://github.com/mod0/ctypes-boilerplate "Boilerplate code using Ctypes"
