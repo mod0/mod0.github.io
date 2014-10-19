@@ -1,0 +1,65 @@
+==================================================================
+https://keybase.io/mnm
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://mod0.github.io
+  * I am mnm (https://keybase.io/mnm) on keybase.
+  * I have a public key with fingerprint 3C84 EB81 9ACD C4A5 7A21  D46A A35B CB98 6456 0875
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "3c84eb819acdc4a57a21d46aa35bcb9864560875",
+            "host": "keybase.io",
+            "key_id": "a35bcb9864560875",
+            "uid": "ed1bc429d5f022f9f21bd536366c3800",
+            "username": "mnm"
+        },
+        "service": {
+            "hostname": "mod0.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1413733178,
+    "expire_in": 157680000,
+    "prev": "71f8cbc4fa122f721f487e065a5303674aed5288dabea0c9428bde81e475f022",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v1.1.3
+Comment: https://keybase.io/crypto
+
+yMHeAnicbVFbSBRhFN7V1LSLIRmF3fxbTGizuc/s5pPdQH3oahLm+s/MPzuj7sw6
+O2tJmfgUqEE304fCYDMqQVMLMlHEDJKMsCIQu4hgJYoGviSh9o9dnno6nPNdzvk4
+A2uiHQnO6oUj3g9xYqPzZd9s2HF836j3HBANuQLgWoKWi6LpfmQGTU23gBfQksAg
+USA9UJIlBrI8pEiZ4SCkWVESPQLHsBwh8CxwA9UI2QpsI8IQytAMPMONT5Px9D/8
+8DKAZFKUGMojswpBUYpHoUhRZmmO5jiJFgjCJoaQqcMAwuyAHgCVboAH5ZqE7HPt
+rX9BQyYy/JqlhsXf24OmYRmSUYox1bKCIa+ttSqCNvkMEn1/bHyipss4NVaUIzOk
+GTrwkpgpWZrtSzIkzdM0yQtugM4GNRP5NJvB8hy+jyDsPagcW/KkIkg4jAJJnISn
+SIUReERwLGRpguZ4BiKZpQRBhiKChORhKEGUkUAihl8OD+xgZboBvDQ+E/qxZUjz
+69AKmwhU9vcVrHA4ExyxMVH23xwJ8ev+fXNz3FIgae4+uHNh2/jpwk3b5/uGlga+
+7b3acJK5xeb21Mx311TVv/raCIpzhm8eiO52zTyaKH6yMXG0IPMoS/aOWYvHYsZd
+/YdXT7/oeP6QW0h8vz8H6GmR4tzWtKIH8aNa16WOuh2pyU1Vc4+bext8Xb2r1Dxn
+/AAozV/4WT98qjkjoKTdbmudmZ9VL/s8bZ2R0reTU+TkDXfLs3b2UNXnyNpr2ekj
+P7ZMocXrsOTN4GAoaWyrWmtUp7qk19moMqs2ohY9/dTScXAiuTHxSnoK3053553/
+fi9m5EvZhrqmzhS3K/bEu6jCIT5/uu1jXE925h7Z2Fm0K2vlyHrP3Yu7C34BWJQQ
+3A==
+=Cdxx
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mnm
+
+==================================================================
